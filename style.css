@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom, #525252, #525252, transparent);
+}
+.paralax {
+    height: 500px;
+    background-image: url(imagens/office.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.paralax div {
+    padding-top: 130px;
+    text-align: center;
+}
+.paralax h1 {
+    color: white;
+    font: 50px arial;
+    font-weight:900;
+}
+.paralax p {
+    color: white;
+    font: 15px arial;
+    padding-bottom: 40px;
+}
+a.botao {
+    color: black;
+    background-color: white;
+    padding: 15px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.botao:hover {
+    background-color: tomato;
+}
+section.conteudo {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+.box-conteudo {
+    width: 80vw;
+    margin: 0 auto;
+    text-indent: 40px;
+}
+.box-conteudo h1 {
+    padding:40px;
+    text-align: center;
+    font-size: 30px;
+}
+div.box-conteudo div.texto {
+    padding-bottom: 50px;
+}
+
+.box-conteudo p {
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
